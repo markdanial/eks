@@ -1,0 +1,35 @@
+.flavors {
+		font-family: naivefantasies;
+		width: 100%;
+		padding: 10px 50px;
+		font-size: 20px;
+		text-align: center;
+		margin: 0 auto;
+	&.vanilla {
+		background-color: $yellow;
+	}
+	&.chocolate {
+		background-color: $pink;
+	}	
+	&.caramel {
+		background-color: $blue;
+	}	
+	&.seasonal {
+		background-color: $peach;
+		position: relative;
+		.sticker {
+			width: 70px;
+			height: 70px;
+			border-radius: 50%;
+			background-color: white;
+			position: absolute;
+			right: 517px;
+			top: -10px;
+			font-family: 'Josefin Slab';
+			font-size: 14px;
+			line-height: 13px;
+			padding-top: 22px;
+			transform: rotate(12deg);
+		}
+	}
+}

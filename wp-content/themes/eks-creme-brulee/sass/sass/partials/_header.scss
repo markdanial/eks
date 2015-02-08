@@ -1,0 +1,17 @@
+.logo {
+	max-width: 230px;
+	margin:0 auto;	
+	font-family: 'naivefantasies';
+	font-size: 30px;
+	padding: 40px 0;
+} 
+.header {
+	background-color: beige;
+	&.active {
+		left:400px;
+	}
+}
+.sub-header {
+	font-size: 30px;
+	margin: 20px 0;
+}

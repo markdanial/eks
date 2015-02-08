@@ -1,0 +1,15 @@
+<IfModule mod_mime.c>
+AddType image/svg+xml .svg .svgz
+</IfModule>
+# BEGIN WordPress
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /index.php [L]
+AddType image/svg+xml svg svgz
+AddEncoding gzip svgz
+</IfModule>
+# END WordPress

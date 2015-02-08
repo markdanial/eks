@@ -1,0 +1,563 @@
+/*
+	Theme Name: EKs Creme Brulee
+	Theme URI: http://ekscremebrulee.com
+	Description: EKs Creme Brulee Wordpress Site
+	Version: 0.0.1
+	Author: Mark Danial
+
+	License: MIT
+	License URI: http://opensource.org/licenses/mit-license.php
+*/
+/* line 5, ../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+/*------------------------------------*\
+    WORDPRESS CORE
+\*------------------------------------*/
+/* line 5, sass/sass/partials/_wp_reset.scss */
+.alignnone {
+  margin: 0;
+}
+
+/* line 8, sass/sass/partials/_wp_reset.scss */
+.aligncenter,
+div.aligncenter {
+  display: block;
+  margin: 0;
+}
+
+/* line 13, sass/sass/partials/_wp_reset.scss */
+.alignright {
+  float: right;
+  margin: 0;
+}
+
+/* line 17, sass/sass/partials/_wp_reset.scss */
+.alignleft {
+  float: left;
+  margin: 0;
+}
+
+/* line 21, sass/sass/partials/_wp_reset.scss */
+a img.alignright {
+  float: right;
+  margin: 0;
+}
+
+/* line 25, sass/sass/partials/_wp_reset.scss */
+a img.alignnone {
+  margin: 0;
+}
+
+/* line 28, sass/sass/partials/_wp_reset.scss */
+a img.alignleft {
+  float: left;
+  margin: 0;
+}
+
+/* line 32, sass/sass/partials/_wp_reset.scss */
+a img.aligncenter {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* line 37, sass/sass/partials/_wp_reset.scss */
+.wp-caption {
+  background: #FFF;
+  border: 1px solid #F0F0F0;
+  max-width: 96%;
+  padding: 5px 3px 10px;
+  text-align: center;
+}
+
+/* line 44, sass/sass/partials/_wp_reset.scss */
+.wp-caption.alignnone {
+  margin: 0;
+}
+
+/* line 47, sass/sass/partials/_wp_reset.scss */
+.wp-caption.alignleft {
+  margin: 0;
+}
+
+/* line 50, sass/sass/partials/_wp_reset.scss */
+.wp-caption.alignright {
+  margin: 0;
+}
+
+/* line 53, sass/sass/partials/_wp_reset.scss */
+.wp-caption img {
+  border: 0 none;
+  height: auto;
+  margin: 0;
+  max-width: 98.5%;
+  padding: 0;
+  width: auto;
+}
+
+/* line 61, sass/sass/partials/_wp_reset.scss */
+.wp-caption .wp-caption-text,
+.gallery-caption {
+  font-size: 11px;
+  line-height: 17px;
+  margin: 0;
+  padding: 0 4px 5px;
+}
+
+@font-face {
+  font-family: 'naivefantasies';
+  src: url("fonts/naivefantasies.eot");
+  src: url("fonts/naivefantasies.otf");
+  src: url("fonts/naivefantasies.eot?#iefix") format("embedded-opentype"), url("fonts/naivefantasies.woff2") format("woff2"), url("fonts/naivefantasies.woff") format("woff"), url("fonts/naivefantasies.ttf") format("truetype"), url("fonts/naivefantasies.svg#naivefantasies") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+/*------------------------------------*\
+    MAIN
+\*------------------------------------*/
+/* global box-sizing */
+/* line 8, sass/sass/partials/_base.scss */
+*,
+*:after,
+*:before {
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+/* html element 62.5% font-size for REM use */
+/* line 18, sass/sass/partials/_base.scss */
+html {
+  font-size: 62.5%;
+}
+
+/* line 21, sass/sass/partials/_base.scss */
+body {
+  font: 300 11px/1.4 'Josefin Slab', Helvetica, Arial, sans-serif;
+  color: #000;
+  background-color: beige;
+  overflow-x: hidden;
+}
+
+/* line 28, sass/sass/partials/_base.scss */
+.clear:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+
+/* line 36, sass/sass/partials/_base.scss */
+* html .clear {
+  zoom: 1;
+}
+
+/* IE6 */
+/* line 37, sass/sass/partials/_base.scss */
+*:first-child + html .clear {
+  zoom: 1;
+}
+
+/* IE7 */
+/* line 38, sass/sass/partials/_base.scss */
+img {
+  max-width: 100%;
+  vertical-align: bottom;
+}
+
+/* line 42, sass/sass/partials/_base.scss */
+a {
+  color: #000;
+  text-decoration: none;
+}
+
+/* line 46, sass/sass/partials/_base.scss */
+a:focus {
+  outline: 0;
+}
+
+/* line 49, sass/sass/partials/_base.scss */
+a:hover,
+a:active {
+  outline: 0;
+  cursor: pointer;
+}
+
+/* line 54, sass/sass/partials/_base.scss */
+input:focus {
+  outline: 0;
+  border: 1px solid #04A4CC;
+}
+
+/* line 1, sass/sass/partials/_header.scss */
+.logo {
+  max-width: 230px;
+  margin: 0 auto;
+  font-family: 'naivefantasies';
+  font-size: 30px;
+  padding: 40px 0;
+}
+
+/* line 8, sass/sass/partials/_header.scss */
+.header {
+  background-color: beige;
+}
+/* line 10, sass/sass/partials/_header.scss */
+.header.active {
+  left: 400px;
+}
+
+/* line 14, sass/sass/partials/_header.scss */
+.sub-header {
+  font-size: 30px;
+  margin: 20px 0;
+}
+
+/* line 1, sass/sass/partials/_menu.scss */
+.menu {
+  background: url(img/old-spoons.png) center no-repeat;
+  background-size: 100px;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  left: 50px;
+  top: 30px;
+}
+/* line 9, sass/sass/partials/_menu.scss */
+.menu:hover {
+  cursor: pointer;
+}
+
+/* line 1, sass/sass/partials/_helpers.scss */
+.right {
+  float: right;
+}
+
+/* line 4, sass/sass/partials/_helpers.scss */
+.center {
+  text-align: center;
+}
+
+/* line 1, sass/sass/partials/_background.scss */
+.bg-img {
+  background: url(img/field-house.jpg) no-repeat center;
+  background-size: cover;
+  height: 100vh;
+  max-width: 100%;
+  width: 100%;
+  background-color: grey;
+  position: relative;
+  z-index: -2;
+}
+
+/* line 11, sass/sass/partials/_background.scss */
+.bg-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-color: rgba(255, 255, 255, 0.4);
+  z-index: -1;
+}
+
+/* line 2, sass/sass/partials/_nav.scss */
+nav {
+  padding-top: 150px;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #d4b49e;
+  text-align: left;
+  position: absolute;
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+/* line 15, sass/sass/partials/_nav.scss */
+nav.active {
+  opacity: 1;
+  visibility: visible;
+  height: 100%;
+}
+/* line 21, sass/sass/partials/_nav.scss */
+nav ul {
+  text-align: center;
+}
+/* line 24, sass/sass/partials/_nav.scss */
+nav ul li {
+  font-size: 45px;
+  margin-bottom: 50px;
+  font-weight: 400;
+  font-family: 'Josefin Sans';
+}
+/* line 30, sass/sass/partials/_nav.scss */
+nav ul li a {
+  color: black;
+}
+/* line 34, sass/sass/partials/_nav.scss */
+nav ul li:first-child a:hover {
+  border-bottom: 3px solid #ecd828;
+  padding-bottom: 10px;
+}
+/* line 38, sass/sass/partials/_nav.scss */
+nav ul li:nth-child(2) a:hover {
+  border-bottom: 3px solid #e91974;
+  padding-bottom: 10px;
+}
+/* line 42, sass/sass/partials/_nav.scss */
+nav ul li:nth-child(3) a:hover {
+  border-bottom: 3px solid #187e9e;
+  padding-bottom: 10px;
+}
+/* line 46, sass/sass/partials/_nav.scss */
+nav ul li:nth-child(4) a:hover {
+  border-bottom: 3px solid #c4997b;
+  padding-bottom: 10px;
+}
+
+/* line 1, sass/sass/partials/_img.scss */
+.top-img img {
+  width: 33.333%;
+  float: left;
+}
+
+/* line 1, sass/sass/partials/_slice.scss */
+.slice {
+  width: 100%;
+}
+/* line 4, sass/sass/partials/_slice.scss */
+.slice .slice-item {
+  width: 50%;
+  float: left;
+}
+/* line 8, sass/sass/partials/_slice.scss */
+.slice .slice-item-3 {
+  width: 33.333%;
+  float: left;
+}
+
+/* line 1, sass/sass/partials/_table.scss */
+.table {
+  display: table;
+}
+/* line 4, sass/sass/partials/_table.scss */
+.table .table-cell {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+/* line 9, sass/sass/partials/_table.scss */
+.footer .table {
+  height: 300px;
+  width: 1000px;
+}
+
+/* line 2, sass/sass/partials/_main.scss */
+main.active {
+  display: none;
+}
+
+/* line 6, sass/sass/partials/_main.scss */
+.main {
+  max-width: 800px;
+  margin: 100px auto;
+}
+/* line 10, sass/sass/partials/_main.scss */
+.main .paragraph {
+  font-size: 27px;
+  line-height: 40px;
+  font-weight: 600;
+}
+/* line 15, sass/sass/partials/_main.scss */
+.main .paragraph a {
+  color: #e91974;
+}
+/* line 17, sass/sass/partials/_main.scss */
+.main .paragraph a:hover {
+  border-bottom: 1px solid #e91974;
+}
+/* line 21, sass/sass/partials/_main.scss */
+.main .paragraph::first-letter {
+  font-size: 80px;
+  font-family: 'naivefantasies';
+  margin-left: -40px;
+  padding-right: 5px;
+}
+
+/* line 1, sass/sass/partials/_footer.scss */
+.footer {
+  background-color: #187e9e;
+  height: 300px;
+  width: 100%;
+}
+/* line 6, sass/sass/partials/_footer.scss */
+.footer .wrapper {
+  padding-top: 100px;
+}
+/* line 10, sass/sass/partials/_footer.scss */
+.footer li {
+  margin-left: 5px;
+}
+/* line 14, sass/sass/partials/_footer.scss */
+.footer.active {
+  display: none;
+}
+/* line 18, sass/sass/partials/_footer.scss */
+.footer .header {
+  font-size: 25px;
+  font-family: naivefantasies;
+  margin-bottom: 12px;
+  background-color: transparent;
+}
+/* line 24, sass/sass/partials/_footer.scss */
+.footer .email {
+  font-size: 22px;
+}
+/* line 27, sass/sass/partials/_footer.scss */
+.footer .phone {
+  font-size: 18px;
+}
+/* line 30, sass/sass/partials/_footer.scss */
+.footer .connect li {
+  display: inline-block;
+  margin-right: 20px;
+}
+/* line 33, sass/sass/partials/_footer.scss */
+.footer .connect li:last-child {
+  margin-right: 0;
+}
+/* line 37, sass/sass/partials/_footer.scss */
+.footer .iron {
+  background: url(img/iron.png) center no-repeat;
+  background-size: 100px;
+  width: 100px;
+  height: 100px;
+  margin: 0 auto;
+}
+
+/* line 1, sass/sass/partials/_social.scss */
+.facebook {
+  background: url(img/facebook.png) center no-repeat;
+  background-size: 30px;
+  width: 30px;
+  height: 30px;
+}
+
+/* line 7, sass/sass/partials/_social.scss */
+.instagram {
+  background: url(img/instagram.png) center no-repeat;
+  background-size: 30px;
+  width: 30px;
+  height: 30px;
+}
+
+/* line 1, sass/sass/partials/_flavors.scss */
+.flavors {
+  font-family: naivefantasies;
+  width: 100%;
+  padding: 10px 50px;
+  font-size: 20px;
+  text-align: center;
+  margin: 0 auto;
+}
+/* line 8, sass/sass/partials/_flavors.scss */
+.flavors.vanilla {
+  background-color: #ecd828;
+}
+/* line 11, sass/sass/partials/_flavors.scss */
+.flavors.chocolate {
+  background-color: #e91974;
+}
+/* line 14, sass/sass/partials/_flavors.scss */
+.flavors.caramel {
+  background-color: #187e9e;
+}
+/* line 17, sass/sass/partials/_flavors.scss */
+.flavors.seasonal {
+  background-color: #c4997b;
+  position: relative;
+}
+/* line 20, sass/sass/partials/_flavors.scss */
+.flavors.seasonal .sticker {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background-color: white;
+  position: absolute;
+  right: 517px;
+  top: -10px;
+  font-family: 'Josefin Slab';
+  font-size: 14px;
+  line-height: 13px;
+  padding-top: 22px;
+  transform: rotate(12deg);
+}

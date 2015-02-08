@@ -1,0 +1,12 @@
+.menu {
+	background: url(img/old-spoons.png) center no-repeat;
+	background-size: 100px;
+	width: 100px;
+	height: 100px;
+	position: absolute;
+	left: 50px;
+	top: 30px;
+	&:hover {
+		cursor:pointer;
+	}
+}

@@ -1,0 +1,44 @@
+.footer {
+	background-color: $blue;
+	height: 300px;
+	width: 100%;
+
+	.wrapper {
+		padding-top: 100px;
+	}
+
+	li {
+		margin-left: 5px;
+	}
+
+	&.active {
+		display: none;
+	}
+
+	.header {
+		font-size: 25px;
+		font-family: naivefantasies;
+		margin-bottom: 12px;
+		background-color: transparent;
+	}
+	.email {
+		font-size: 22px;
+	}
+	.phone {
+		font-size: 18px;
+	}
+	.connect li {
+		display: inline-block;
+		margin-right: 20px;
+		&:last-child {
+			margin-right:0;
+		}
+	}
+	.iron {
+		background: url(img/iron.png) center no-repeat;
+		background-size: 100px;
+		width:100px;
+		height: 100px;
+		margin:0 auto;
+	}
+}

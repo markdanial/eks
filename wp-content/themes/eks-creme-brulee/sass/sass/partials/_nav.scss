@@ -1,0 +1,52 @@
+
+nav {
+	padding-top: 150px;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: lighten($peach, 10%);
+	text-align: left;
+	position: absolute;
+	visibility: hidden;
+	opacity: 0;
+	transition: opacity 0.3s ease;
+	
+	&.active {
+		opacity: 1;
+		visibility: visible;
+		height: 100%;
+	}
+
+	ul {
+	text-align: center;
+	
+		li {
+			font-size: 45px;
+			margin-bottom: 50px;
+			font-weight: 400;
+			font-family: 'Josefin Sans';
+			
+			a {
+				color:black;
+			}
+
+			&:first-child a:hover {
+				border-bottom: 3px solid $yellow;
+				padding-bottom: 10px;
+			}
+			&:nth-child(2) a:hover {
+				border-bottom: 3px solid $pink;
+				padding-bottom: 10px;
+			}
+			&:nth-child(3) a:hover {
+				border-bottom: 3px solid $blue;
+				padding-bottom: 10px;
+			}
+			&:nth-child(4) a:hover {
+				border-bottom: 3px solid $peach;
+				padding-bottom: 10px;
+			}
+		}
+	}
+}
