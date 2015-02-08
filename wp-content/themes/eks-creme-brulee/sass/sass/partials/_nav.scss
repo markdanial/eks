@@ -25,26 +25,30 @@ nav {
 			font-size: 45px;
 			margin-bottom: 50px;
 			font-weight: 400;
-			font-family: 'Josefin Sans';
+			font-family: 'naivefantasies';
 			
 			a {
 				color:black;
 			}
 
 			&:first-child a:hover {
-				border-bottom: 3px solid $yellow;
+				border-bottom: 5px solid $yellow;
 				padding-bottom: 10px;
 			}
 			&:nth-child(2) a:hover {
-				border-bottom: 3px solid $pink;
+				border-bottom: 5px solid $pink;
 				padding-bottom: 10px;
 			}
 			&:nth-child(3) a:hover {
-				border-bottom: 3px solid $blue;
+				border-bottom: 5px solid $blue;
 				padding-bottom: 10px;
 			}
 			&:nth-child(4) a:hover {
-				border-bottom: 3px solid $peach;
+				border-bottom: 5px solid $peach;
+				padding-bottom: 10px;
+			}
+			&:nth-child(5) a:hover {
+				border-bottom: 5px solid $green;
 				padding-bottom: 10px;
 			}
 		}

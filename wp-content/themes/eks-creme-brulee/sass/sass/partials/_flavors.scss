@@ -6,16 +6,16 @@
 		text-align: center;
 		margin: 0 auto;
 	&.vanilla {
-		background-color: $yellow;
+		background-color: lighten($yellow, 10%);
 	}
 	&.chocolate {
-		background-color: $pink;
+		background-color: lighten($pink, 10%);
 	}	
 	&.caramel {
-		background-color: $blue;
+		background-color: lighten($blue, 10%);
 	}	
 	&.seasonal {
-		background-color: $peach;
+		background-color: lighten($peach, 10%);
 		position: relative;
 		.sticker {
 			width: 70px;

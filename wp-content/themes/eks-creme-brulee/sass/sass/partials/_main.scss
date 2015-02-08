@@ -11,19 +11,37 @@ main {
 		font-size: 27px;
 		line-height: 40px;
 		font-weight: 600;
-
+			div {
+				margin-bottom: 40px;
+			}
 		a {
 			color: $pink;
 			&:hover {
 				border-bottom: 1px solid $pink;
 			}
-			}
+		}
 		&::first-letter {
 			font-size: 80px;
 			font-family: 'naivefantasies';
 			margin-left: -40px;
 			padding-right: 5px;
+		}
+		&.where::first-letter {
+			font-size: 80px;
+			font-family: 'naivefantasies';
+			margin-left: -28px;
+			margin-right: -20px;
+		}
+		&.contact {
+			text-align: center;
+			color: black;
 
+			&::first-letter {
+				font-size: 27px;
+				margin-left: 0;
+				padding-right: 0;
+				font-family: 'Josefin Slab';
+			}
 		}
 	}
 }
